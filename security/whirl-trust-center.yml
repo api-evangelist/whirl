@@ -1,0 +1,13 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.whirlai.com/security
+url: https://www.whirlai.com/security
+certifications:
+- SOC 2
+evidence:
+- source: https://www.whirlai.com/security
+  keywords:
+  - soc 2
+  - soc2
+  - trust center

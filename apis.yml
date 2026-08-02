@@ -1,8 +1,25 @@
 aid: whirl
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/whirl.png
 name: Whirl
-description: 'Whirl is a company surfaced as a portfolio company of iconiq-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Whirl AI is an enterprise IT platform that uses AI agents to help IT teams understand,
+  enhance, and transform business processes and core systems. It automates research and impact
+  analysis, generates business requirements, epics and user stories, and accelerates configuration
+  and code changes across applications and integrations, compressing enterprise system changes from
+  weeks and months into days and hours. Whirl runs on dedicated single-tenant AWS infrastructure per
+  customer with immutable, versioned, auditable pipelines (no SSH access), FIDO2 device-based access,
+  and SOC 2 Type II compliance. Founded by former Snowflake CIO Sunny Bedi and backed by ICONIQ, with
+  advisors from Okta, Splunk, and VMware.'
 url: https://raw.githubusercontent.com/api-evangelist/whirl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Enterprise IT
+- IT Operations
+- AI Agents
+- Business Process
+- Automation
+- Trust Center
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.whirlai.com/
+- type: Blog
+  url: https://www.whirlai.com/post/news-center
+- type: Support
+  url: https://www.whirlai.com/contact
+- type: PrivacyPolicy
+  url: https://www.whirlai.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/whirl-ai/
+- type: TrustCenter
+  url: security/whirl-trust-center.yml
+- type: Compliance
+  url: https://www.whirlai.com/security
+- type: DomainSecurity
+  url: security/whirl-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
